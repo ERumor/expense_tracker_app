@@ -17,22 +17,17 @@ class Expenses extends StatefulWidget {
 class _ExpensesState extends State<Expenses> {
   final List<Expense> _registeredExpenses = [
     Expense(
-      title: 'Programming Course',
-      amount: 19.99,
+      title: 'McDonalds',
+      amount: 14.99,
       date: DateTime.now(),
-      category: Category.work,
+      category: Category.food,
     ),
     Expense(
-      title: 'Cinema',
-      amount: 15.69,
+      title: 'Traveling to Italy',
+      amount: 350.00,
       date: DateTime.now(),
-      category: Category.leisure,
+      category: Category.travel,
     ),
-    Expense(
-        title: 'McDonalds',
-        amount: 12.50,
-        date: DateTime.now(),
-        category: Category.food),
   ];
 
   void _openAddExpenseOverlay() {
