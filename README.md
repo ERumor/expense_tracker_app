@@ -14,6 +14,7 @@ Expense Tracker app for Android. Expense tracker contains 4 categories of expens
 - Deletion of expenses and ability to recover if accidentally deleted.
 - An expense chart showing what you spent the most money on.
 - Light and dark theme, depending on the theme on android.
+- App splash screen with logo, logo responds to dark android theme.
 
 **Stack:**
 - Visual Studio Code, Flutter/Dart. 
